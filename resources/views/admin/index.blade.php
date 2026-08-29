@@ -9,7 +9,7 @@
     <a href="/">Back</a>
     <h2>Admin page</h2>
     <ul>
-        <li>CRUD</li>
+        <li>{{ $ninjas[0]->name}}</li>
         <li>More</li>
         <li>{{ $greeting }}
     </ul>

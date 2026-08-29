@@ -7,5 +7,11 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin.index', ["greeting" => "hello"]);
+
+$ninjas = [
+    ["name" => "mario", "skill" => 75, "id" => "1"],
+    ["name" => "luigi", "skill" => 45, "id" => "2"],
+];
+
+return view('admin.index', ["greeting" => "hello", "ninjas" => $ninjas]);
 });
