@@ -11,6 +11,7 @@
     <ul>
         <li>CRUD</li>
         <li>More</li>
+        <li>{{ $greeting }}
     </ul>
 </body>
 </html>
