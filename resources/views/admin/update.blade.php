@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MobileMax Homepage</title>
+    <title>Admin Update</title>
 </head>
 <body>
-    <h1>Welcome to MobileMax</h1>
-    <br><br>
-    <a href="/admin">Admin</a>
+    <h1>Admin - Update</h1>
 </body>
 </html>
