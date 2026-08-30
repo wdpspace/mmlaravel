@@ -7,5 +7,7 @@
 </head>
 <body>
     <h1>Welcome - this is the homepage</h1>
+
+    <a href="/admin">Admin</a>
 </body>
 </html>
