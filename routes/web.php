@@ -11,3 +11,6 @@ Route::get('/admin', function () {
 });
 
 
+Route::get('/admin/create', function{
+    return view('admin.create');
+});
